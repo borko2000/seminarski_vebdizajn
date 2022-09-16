@@ -1,0 +1,26 @@
+/* media queries */
+
+@media screen and (max-width: 560px){
+    nav ul li{
+        width: 70px;
+        padding: 7px 0;
+    }
+    nav ul a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 90vw;
+    }
+    .page{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .page{
+        width: 80vw;
+    }
+}
